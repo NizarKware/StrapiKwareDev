@@ -1,0 +1,201 @@
+.ParentGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+  }
+  .LogoGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+  }
+  .DarkBlue {
+    height: 160px;
+    background:#454E62;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #454E62;
+  }
+  .DarkBlue:hover {
+    border: 5px solid #000000;
+  }
+  .MediumBlue {
+    height: 160px;
+    background: #385E7B;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #385E7B;
+  }
+  .MediumBlue:hover {
+    border: 5px solid #000000;
+  }
+  .Blue {
+    height: 160px;
+    background:#4C7EA5;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #4C7EA5;
+  }
+  .Blue:hover {
+    border: 5px solid #000000;
+  }
+  .Orange {
+    height: 160px;
+    background:#FF5A3F;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #FF5A3F;
+    
+  }
+  .Orange:hover {
+    border: 5px solid #000000;
+  }
+  .DarkPurple {
+    height: 160px;
+    background:#6E5E7B;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #6E5E7B;
+  }
+  .DarkPurple:hover {
+    border: 5px solid #000000;
+  }
+
+  .MediumPurple {
+    height: 160px;
+    background:#6E5E7B;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #6E5E7B;
+  }
+  .MediumPurple:hover {
+    border: 5px solid #000000;
+  }
+
+  .LightPurple {
+    height: 160px;
+    background:#5D6883;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #5D6883;
+  }
+  .LightPurple:hover {
+    border: 5px solid #000000;
+  }
+  .VeryLightPurple {
+    height: 160px;
+    background:#9383A0;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #9383A0;
+  }
+  .VeryLightPurple:hover {
+    border: 5px solid #000000;
+  }
+ 
+  .title {
+    color:#0C77C3;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 55px;
+  }
+
+  #foliobee { 
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 2px;
+    border-radius: 10px;
+  }
+  #darah { 
+    float: right; 
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 2px;
+  }
+  .folio {
+    width: 200px;
+    margin-right: 8%;
+    margin-left: 5px;
+    
+  }
+  .kware {
+    width: 200px;
+    margin-right: 8%;
+  }
+  .kintegration{
+    width: 300px;
+    margin-right: 8%;
+  }
+  .ebsco{
+    width: 150px;
+    margin-right: 8%;
+  }
+  .opensource { 
+    width: 74px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .YLine {
+    height: 5px;
+    background:#F9AF00;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  @media (max-width:768px) {
+    .container{
+      display: grid;
+      grid-template-rows: repeat(2,1fr);
+      gap: 30px;
+    }
+  }
+
+  @media (max-width:100px) {
+    .container2{
+      display: grid;
+     
+    }
+  }

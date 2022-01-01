@@ -1,0 +1,39 @@
+.productContainer .productWrapper {
+  
+   z-index: 0;
+ }
+ .productContainer .productCenterContainer {
+   
+  
+   display: flex;
+   align-items: flex-start;
+   pointer-events: none;
+ }
+ 
+ .productInnerWrapper {
+   width: 83.3333333333%;
+   max-width: 1200px;
+   z-index: 1;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ 
+  .productCenterWrapper {
+   flex: 1 1;
+   position: relative;
+   z-index: -1;
+   pointer-events: auto;
+ }
+ 
+ .productCenterWrapper
+   > :first-child {
+   margin-top: 46px;
+ }
+ @media (min-width: 1200px) {
+   .productCenterWrapper {
+     flex: 0 1 auto;
+     margin-left: 60px;
+   }
+ }
